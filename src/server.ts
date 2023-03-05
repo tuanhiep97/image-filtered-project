@@ -5,7 +5,6 @@ import { filterImageFromURL, deleteLocalFiles } from "./util/util";
 (async () => {
   // Init the Express application
   const app = express();
-  const axios = require("axios");
 
   // Set the network port
   const port = process.env.PORT || 8082;
